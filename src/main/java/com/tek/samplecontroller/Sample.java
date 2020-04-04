@@ -19,7 +19,8 @@ public class Sample {
 	}
 	
 	@GetMapping("/sample")
-	public String registerEmployee() {
+	public String getSampleMessage() {
+		log.info("SAMPLE CLASS :: invoking getSampleMessage()");
 		return "Jenkins Maven GIT Integrated Successfull";
 	}
 }
